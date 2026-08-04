@@ -1,0 +1,902 @@
+/* _content/VerseVine/Views/Shared/_Layout.cshtml.rz.scp.css */
+/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+/*           navbar versevine css*/
+a.navbar-brand[b-wbamb1i2rq] {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+}
+
+a[b-wbamb1i2rq] {
+    color: #0077cc;
+}
+
+.btn-primary[b-wbamb1i2rq] {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-wbamb1i2rq], .nav-pills .show > .nav-link[b-wbamb1i2rq] {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+.border-top[b-wbamb1i2rq] {
+    border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom[b-wbamb1i2rq] {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-wbamb1i2rq] {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-wbamb1i2rq] {
+    font-size: 1rem;
+    line-height: inherit;
+}
+
+.footer[b-wbamb1i2rq] {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px;
+}
+
+/*              og code rewrite                */
+
+.mb-3 {
+    margin-bottom: 0rem !important;
+}
+
+.pb-3 {
+    padding: 0rem !important;
+}
+
+.stick{
+    position: sticky;
+    top: 0px;
+}
+
+.footer[b-wbamb1i2rq] {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px;
+    background-color: white;
+    text-align: center;
+}
+
+
+@media (min-width: 1400px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 100%;
+    }
+}
+
+
+/*                    General                      */
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.5rem #258cfb;
+}
+
+html {
+    background-color: #d4d9d1;
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    width: 100%;
+    margin-bottom: 60px;
+    background-color: #d4d9d1;
+}
+
+
+.container, body {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+/*                 tags                   */
+a{
+  text-decoration: none;
+}
+
+
+
+/*                Buttons                */
+.button {
+    float: right;
+    background-color: #6A8D73;
+    color: wheat;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    margin-top: 35px;
+    margin-right: 70px;
+    padding-left: 50px;
+}
+
+.button:hover {
+    color: black
+}
+
+/*                    Home Page                     */
+
+
+.nature {
+    width: 45%;
+    float: left;
+    padding: 0px;
+    margin: 0px;
+}
+
+.HomePageDiv {
+    background-color: #d4d9d1;
+    color: black;
+    float: right;
+    width: 55%;
+    height: auto;
+    padding-top: 5%;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.HomeTitle {
+    background-color: #d4d9d1;
+    text-align: center;
+    padding: 5%;
+}
+
+.HomeText {
+    background-color: #d4d9d1;
+}
+
+
+/*     Topic bottons and user input         */
+.TopicsHeader {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.Page1HeaderText {
+    color: black;
+    padding-top: 10px;
+    align-content: center;
+    font-size: 3rem;
+}
+
+.topicButton {
+    background-color: #d4d9d1;
+    border: none;
+    border: #000000;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: black;
+}
+
+.topicButton:hover {
+     color: #697644;
+ }
+
+.TopicInput {
+    text-align: center;
+}
+
+/*         Topics and tables           */
+.topic1, .topic2, .topic3, .topic4, .topic5, .topic6, .topic7, .topic8 {
+    clear: both;
+    width: 100%;
+    height: 400px;
+    padding-top: 10px;
+    color: black;
+    text-align: center;
+}
+
+.topic1header, .topic2header, .topic3header, .topic4header, .topic5header, .topic6header, .topic7header, .topic8header {
+    font-size: 2rem;
+    color: black;
+    background-color: #abb3ab;
+    width: 100%;
+}
+
+
+.TopicInputText {
+    border: none;
+    background-color: #D4D9D1;
+    border: #000000;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: black;
+}
+
+.TopicInputText:hover {
+    color: #697644;
+}
+
+
+.table {
+    width: 100%;
+    border-style: none;
+    table-layout: fixed;
+}
+
+.return {
+    clear:both;
+    float: right;
+    border: none;
+    background-color: #D4D9D1;
+    border: #000000;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-right: 15px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: BLACK;
+}
+
+.return:hover {
+        color: #697644;
+}
+
+
+
+/*                  Prayers                   */
+.page2header {
+    width: 100%;
+    height: auto;
+    color: black;
+    text-align: center;
+}
+
+.PrayerInput {
+    margin-top: 2%;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.PrayerInputText {
+    border: none;
+    background-color: white;
+    border: #000000;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: black;
+}
+
+.PrayerInputText:hover {
+       
+        color: #697644;
+}
+
+
+.PrayerTable {
+    clear: both;
+    width: 100%;
+    text-align: center;
+    border-style: none;
+    font-size: 1.2rem;
+}
+
+.tablHeader {
+    display: none;
+}
+
+
+
+
+/*                 About us                   */
+.aboutUs {
+    width: 100%;
+    text-align: center;
+}
+
+.aboutUsHeader {
+    font-size: 3rem;
+}
+
+.aboutUsText {
+    font-size: 1.5rem;
+    padding-top:5%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+
+.AboutUsImage {
+    visibility: collapse;
+}
+
+
+/*                  Privacy Policy            */
+.PrivacyPolicy {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.PrivacyPolicyTitle {
+    font-size: 3rem;
+}
+
+.PrivacyPolicyText {
+    text-align: left;
+    font-size: 1.3rem;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+/*               log in and create                 */
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+    unicode-bidi: isolate;
+    color: black;
+}
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y)* -1);
+    margin-right: calc(var(--bs-gutter-x)* -.5);
+    margin-left: calc(var(--bs-gutter-x)* -.5);
+}
+
+
+@media (min-width: 1200px) {
+    .h1, h1 {
+        margin-top: 3%;
+    }
+}
+
+
+.SubmitSpacing {
+    margin-top: 10px;
+}
+
+
+
+.fix{
+    width: 25vw;
+}
+
+.btn-primary {
+    background-color: #697644;
+    border-color: #697644;
+}
+
+.fixSpaceing {
+    margin-top: 2vh;
+    color: black;
+}
+
+.fix2 {
+    color: #697644;
+}
+
+/*              Images               */
+
+.CreateNature1 {
+    width: 45%;
+    float: right;
+    padding: 0px;
+    margin: 0px;
+}
+
+.contentDiv1 {
+    background-color: #D4D9D1;
+    color: black;
+    float: left;
+    width: 55%;
+    height: auto;
+    padding-top: 5%;
+    padding-bottom: 10%;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+
+.CreateNature2 {
+    width: 45%;
+    float: left;
+    padding: 0px;
+    margin: 0px;
+}
+
+.contentDiv2 {
+    background-color: #D4D9D1;
+    color: black;
+    float: right;
+    width: 55%;
+    height: auto;
+    padding-top: 5%;
+    padding-bottom: 10%;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+/*********************************************************/
+/*********************************************************/
+/*********************************************************/
+/*********************************************************/
+/************              PHONE                **********/
+/*********************************************************/
+/*********************************************************/
+/*********************************************************/
+/*********************************************************/
+
+@media only screen and (max-width: 500px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 100vw;
+    }
+
+
+
+    /*             Home Page            */
+    .HomeTitle {
+        text-align: center;
+        padding: 5%;
+    }
+
+    .nature {
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .HomePageDiv {
+        background-color: #d4d9d1;
+        color: #233115;
+        float: right;
+        width: 100%;
+        height: auto;
+        padding-top: 5%;
+        padding-bottom: 10%;
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+
+
+    /*             Topics Page            */
+
+    .TopicsHeader {
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+
+    .Page1HeaderText {
+        color: black;
+        padding-top: 10px;
+        align-content: center;
+        font-size: 3rem;
+    }
+
+    .topicButton {
+        border: none;
+        background-color: #d4d9d1;
+        border: #000000;
+        cursor: pointer;
+        border-radius: 5px;
+        margin-top: 10px;
+        margin-right: 5px;
+        margin-left: 5px;
+        margin-bottom: 10px;
+        padding-right: 10px;
+        padding-left: 10px;
+        color: black;
+        width: 20vw;
+        height: 4vw;
+        font-size: 0.7rem;
+    }
+
+        .topicButton:hover {
+            color: #697644;
+        }
+
+    .TopicInput {
+        text-align: center;
+    }
+
+
+    .topic1, .topic2, .topic3, .topic4, .topic5, .topic6, .topic7, .topic8 {
+        clear: both;
+        width: 100%;
+        height: 400px;
+        padding-top: 10px;
+        color: black;
+        text-align: center;
+    }
+
+    .topic1header, .topic2header, .topic3header, .topic4header, .topic5header, .topic6header, .topic7header, .topic8header {
+        font-size: 2rem;
+        color: black;
+        width: 100%;
+    }
+
+
+    .TopicInputText {
+        border: none;
+        background-color: #d4d9d1;
+        border: #000000;
+        cursor: pointer;
+        border-radius: 5px;
+        margin-top: 10px;
+        margin-right: 5px;
+        margin-left: 5px;
+        margin-bottom: 10px;
+        padding-right: 10px;
+        padding-left: 10px;
+        color: black;
+        width: 20vw;
+        height: 4vw;
+        font-size: 0.7rem;
+    }
+
+    .TopicInputText:hover {
+        color: #697644;
+     }
+
+    .returnDiv {
+        background-color: #ABB3AB;
+    }
+
+    .return {
+        float: none;
+        clear: both;
+        text-align: center;
+        border: none;
+        background-color: black;
+        border: #000000;
+        cursor: pointer;
+        border-radius: 5px;
+        margin-top: 0px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 10px;
+        padding-right: 10px;
+        padding-left: 10px;
+        color: #D4D9D1 /*#ABB3AB*/;
+        width: auto;
+        height: 4vw;
+        font-size: 0.5rem;
+    }
+
+    /*                  Prayers                   */
+    .page2header {
+        margin-top: 5vw;
+    }
+
+    /*                 About us                   */
+    .aboutUs {
+        padding-top: 10%;
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+
+    .aboutUsHeader {
+        font-size: 2rem;
+    }
+
+    .aboutUsText {
+        font-size: 1.3rem;
+        padding-top: 5%;
+        padding-left: 10%;
+        padding-right: 10%;
+        margin-bottom: 5vw;
+    }
+
+    .AboutUsImage {
+        visibility: collapse;
+    }
+
+
+
+    /*                  Privacy Policy            */
+    .PrivacyPolicy {
+        padding-top: 10%;
+        width: 100%;
+        height: auto;
+        text-align: center;
+        padding-bottom: 5%;
+    }
+
+    .PrivacyPolicyTitle {
+        font-size: 3rem;
+    }
+
+    .PrivacyPolicyText {
+        text-align: left;
+        font-size: 1.3rem;
+        padding-top: 5%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+
+    /*               log in and create                 */
+
+    .stick {
+        position: sticky;
+        top: 0px;
+    }
+
+    .fix {
+        width: 100%;
+    }
+
+
+
+    /*              Images               */
+    .CreateNature1 {
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .contentDiv1 {
+        background-color: #D4D9D1;
+        color: black;
+        width: 100%;
+        padding-top: 5%;
+        padding-bottom: 10%;
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+
+    .CreateNature2 {
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+
+    }
+
+    .contentDiv2 {
+        background-color: #D4D9D1;
+        color: black;
+        width: 100%;
+        padding-top: 5%;
+        padding-bottom: 10%;
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+
+
+}
+
+/*********************************************************/
+/*********************************************************/
+/*********************************************************/
+/*********************************************************/
+/************              TABLET             ************/
+/*********************************************************/
+/*********************************************************/
+/*********************************************************/
+/*********************************************************/
+
+@media only screen and (min-width: 500px) and (max-width: 1400px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 100vw;
+    }
+
+
+
+    /*             Home Page            */
+    .HomeTitle {
+        text-align: center;
+        padding: 5%;
+    }
+
+    .nature {
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .HomePageDiv {
+        background-color: #d4d9d1;
+        color: black;
+        float: right;
+        width: 100%;
+        height: auto;
+        padding-top: 5%;
+        padding-bottom: 10%;
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+
+    /*             Topics Page            */
+
+
+    .topicButton {
+        width: 20vw;
+        height: 4vw;
+        font-size: 1.3rem;
+    }
+
+
+    .TopicInputText {
+        width: 20vw;
+        height: 4vw;
+        font-size: 1.4rem;
+    }
+
+
+    .returnDiv {
+        background-color: #ABB3AB;
+    }
+
+    .return {
+        float: none;
+        clear: both;
+        text-align: center;
+        border: none;
+        background-color: black;
+        border: #000000;
+        cursor: pointer;
+        border-radius: 5px;
+        margin-top: 0px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 10px;
+        padding-right: 10px;
+        padding-left: 10px;
+        color: #D4D9D1 /*#ABB3AB*/;
+        width: auto;
+        height: 4vw;
+        font-size: 0.5rem;
+    }
+
+
+
+
+    /*                  Prayers                   */
+
+
+    .page2header {
+        margin-top: 5vw;
+    }
+
+
+    /*                 About us                   */
+    .aboutUs {
+        padding-top: 10%;
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+
+    .aboutUsHeader {
+        font-size: 2rem;
+    }
+
+    .aboutUsText {
+        font-size: 1.3rem;
+        padding-top: 5%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .AboutUsImage {
+        visibility: visible;
+    }
+
+
+    /*                  Privacy Policy            */
+    .PrivacyPolicy {
+        padding-top: 10%;
+        width: 100%;
+        height: auto;
+        text-align: center;
+        padding-bottom: 5%;
+    }
+
+    .PrivacyPolicyTitle {
+        font-size: 3rem;
+    }
+
+    .PrivacyPolicyText {
+        text-align: left;
+        font-size: 1.3rem;
+        padding-top: 5%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+
+    /*               log in and create                 */
+    .stick {
+        position: sticky;
+        top: 0px;
+    }
+
+    .fix {
+        width: 100%;
+    }
+
+
+    /*              Images               */
+
+
+
+    .CreateNature1 {
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .contentDiv1 {
+        background-color: #D4D9D1;
+        color: black;
+        width: 100%;
+        height: 40vh;
+        padding-top: 5%;
+        padding-bottom: 10%;
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+
+
+    .CreateNature2 {
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+
+  
+    }
+
+    .contentDiv2 {
+        background-color: #D4D9D1;
+        color: black;
+        width: 100%;
+        height: 40vh;
+        padding-top: 5%;
+        padding-bottom: 10%;
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+
+
+}

@@ -1,0 +1,45 @@
+﻿@model VerseVine.Models.Prayer
+
+@{
+    ViewData["Title"] = "Create";
+}
+<div class="contentDiv1">
+    <h1 class="logisticHeder">Prayer Request</h1>
+    <div class="row">
+        <div class="col-md-4">
+            <form asp-action="Create">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group, fix">
+                    <input asp-for="PrayerRequest" class="form-control" placeholder="Type..." maxlength="200" />
+                    <span asp-validation-for="PrayerRequest" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <div class="SubmitSpacing">
+                        <input type="submit" value="Create" class="btn btn-primary" />
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="logisticHeder">
+        <a class="fix2" asp-action="Index">Back to List</a>
+    </div>
+</div>
+
+<div class="CreatePageImage">
+    <div class="Image">
+        <center>
+            <img src="~/image/image3.jpg" class="CreateNature1">
+            <!-- Use image, image3, image5 -->
+        </center>
+    </div>
+</div>
+
+
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

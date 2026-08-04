@@ -1,0 +1,40 @@
+﻿@model IEnumerable<VerseVine.Models.Prayer>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="page2header">
+    <h1 class="PrayerHeader">Prayer Request</h1>
+</div>
+
+<div class="PrayerInput">
+    <a>
+        <a class="PrayerInputText" asp-action="Create">Add yours</a>
+    </a>
+</div>
+
+
+<div>
+    <table class="PrayerTable">
+        <thead class="tablHeader">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.PrayerRequest)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.PrayerRequest)
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+</div>

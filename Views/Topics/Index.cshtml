@@ -1,0 +1,455 @@
+﻿@model IEnumerable<VerseVine.Models.Topics>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+<div class="TopicsHeader">
+    <!--	traversing -->
+    <div class="Page1HeaderText"> <a id="place1"> TOPICS</a> </div>
+    <!-- Page 1 topic buttons -->
+    <div class="topicButtons">
+        <a href="#ANCR1">
+            <button class="topicButton" id="t1"> Love</button>
+        </a> <a href="#ANCR2">
+            <button class="topicButton" id="t2"> Forgiveness</button>
+        </a> <a href="#ANCR3">
+            <button class="topicButton" id="t3"> Peace</button>
+        </a> <a href="#ANCR4">
+            <button class="topicButton" id="t4"> Hope</button>
+        </a> <a href="#ANCR5">
+            <button class="topicButton" id="t5"> Provision</button>
+        </a> <a href="#ANCR6">
+            <button class="topicButton" id="t6"> Strength</button>
+        </a> <a href="#ANCR7">
+            <button class="topicButton" id="t7"> Wisdom</button>
+        </a> <a href="#ANCR8">
+            <button class="topicButton" id="t8"> Healing</button>
+        </a>
+    </div>
+</div>
+
+<div class="TopicInput">
+        <a>
+        <a class="TopicInputText" asp-action="Create">Add yours</a>
+        </a>
+</div>
+
+<div class="topic1">
+    <div class ="topic1header">
+    <a id="ANCR1"> Love</a> <a href="#place1"></a>
+    </div>
+
+    <div class="returnDiv">
+        <a href="#place1">
+            <div>
+                <button class="return"> Go back to menu </button>
+            </div>
+        </a>
+    </div>
+    <p class="introText">
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Book)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Chapter)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Verse)
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    if (item.topic == "Love" || item.topic == "love")
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Book)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Chapter)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Verse)
+                            </td>
+                        </tr>
+                    }
+                }
+            </tbody>
+        </table>
+    </p>
+</div>
+
+
+<div class="topic2">
+    <div class="topic2header">
+        <a id="ANCR2"> Forgiveness</a> 
+    </div>
+        <div class="returnDiv">
+            <a href="#place1">
+                <div>
+                     <button class="return"> Go back to menu </button>
+                </div>
+            </a>
+        </div>
+<p class="introText">
+    <table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Book)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Chapter)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Verse)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model){
+        if (item.topic == "Forgiveness" || item.topic == "forgiveness")
+                    {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Book)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Chapter)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Verse)
+                    </td>
+                </tr>
+        }
+}
+    </tbody>
+</table>
+</p>
+</div>
+
+
+<div class="topic3">
+    <div class="topic3header">
+        <a id="ANCR3"> Peace</a> 
+    </div>
+    <div class="returnDiv">
+        <a href="#place1">
+            <div>
+                <button class="return"> Go back to menu </button>
+            </div>
+        </a>
+    </div>
+    <p class="introText">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Book)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Chapter)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Verse)
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    if (item.topic == "Peace" || item.topic == "peace")
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Book)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Chapter)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Verse)
+                            </td>
+                        </tr>
+                    }
+                }
+            </tbody>
+        </table>
+    </p>
+</div>
+
+<div class="topic4">
+    <div class="topic4header">
+        <a id="ANCR4"> Hope</a> 
+    </div>
+    <div class="returnDiv">
+        <a href="#place1">
+            <div>
+                <button class="return"> Go back to menu </button>
+            </div>
+        </a>
+    </div>
+    <p class="introText">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Book)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Chapter)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Verse)
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    if (item.topic == "Hope" || item.topic == "hope")
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Book)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Chapter)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Verse)
+                            </td>
+                        </tr>
+                    }
+                }
+            </tbody>
+        </table>
+    </p>
+</div>
+
+
+
+<div class="topic5">
+    <div class="topic5header">
+        <a id="ANCR5"> Provision</a> 
+    </div>
+    <div class="returnDiv">
+        <a href="#place1">
+            <div>
+                <button class="return"> Go back to menu </button>
+            </div>
+        </a>
+    </div>
+    <p class="introText">
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Book)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Chapter)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Verse)
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    if (item.topic == "Provision" || item.topic == "provision")
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Book)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Chapter)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Verse)
+                            </td>
+                        </tr>
+                    }
+                }
+            </tbody>
+        </table>
+    </p>
+</div>
+
+
+
+<div class="topic6">
+    <div class="topic6header">
+        <a id="ANCR6"> Strength </a>
+    </div>
+    <div class="returnDiv">
+        <a href="#place1">
+            <div>
+                <button class="return"> Go back to menu </button>
+            </div>
+        </a>
+    </div>
+    <p class="introText">
+
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Book)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Chapter)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Verse)
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    if (item.topic == "Strength")
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Book)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Chapter)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Verse)
+                            </td>
+                        </tr>
+                    }
+                }
+            </tbody>
+        </table>
+    </p>
+</div>
+
+
+<div class="topic7">
+    <div class="topic7header">
+        <a id="ANCR7"> Wisdom</a> 
+    </div>
+    <div class="returnDiv">
+        <a href="#place1">
+            <div>
+                <button class="return"> Go back to menu </button>
+            </div>
+        </a>
+    </div>
+ 
+    <p class="introText">
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Book)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Chapter)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Verse)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            if (item.topic == "Wisdom")
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Book)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Chapter)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Verse)
+                    </td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>
+</p>
+</div>
+
+
+<div class="topic8">
+
+    <div class="topic8header">
+        <a id="ANCR8"> Healing</a> 
+    </div>
+    <div class="returnDiv">
+        <a href="#place1">
+            <div>
+                <button class="return"> Go back to menu </button>
+            </div>
+        </a>
+    </div>
+    <p class="introText">
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Book)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Chapter)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Verse)
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    if (item.topic == "Healing")
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Book)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Chapter)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Verse)
+                            </td>
+                        </tr>
+                    }
+                }
+            </tbody>
+        </table>
+    </p>
+</div>
+
